@@ -1,4 +1,4 @@
-package HomeWork_Dat01;
+package HomeWork.Day01;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
