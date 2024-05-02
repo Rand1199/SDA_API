@@ -1,4 +1,4 @@
-package Day03;
+package day03;
 
 import base_url.JsonPlaceHolderBaseUrl;
 import io.restassured.response.Response;

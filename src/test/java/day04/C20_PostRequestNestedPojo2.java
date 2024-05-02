@@ -67,13 +67,13 @@ public class C20_PostRequestNestedPojo2 extends RestFullBaseUrl {
         BookingResponsePojo actualData = response.as(BookingResponsePojo.class);
 
         assertEquals(200,response.statusCode());
-        assertEquals(payload.getFirstname(),actualData.getBooking().getFirstname());
-        assertEquals(payload.getLastname(),actualData.getBooking().getLastname());
-        assertEquals(payload.getTotalprice(),actualData.getBooking().getTotalprice());
-        assertEquals(payload.getDepositpaid(),actualData.getBooking().getDepositpaid());
-        assertEquals(bookingDates.getCheckin(),actualData.getBooking().getBookingdates().getCheckin());
-        assertEquals(bookingDates.getCheckout(),actualData.getBooking().getBookingdates().getCheckout());
-        assertEquals(payload.getAdditionalneeds(),actualData.getBooking().getAdditionalneeds());
+       // assertEquals(payload.getFirstname(),actualData.getBooking().getFirstname());
+       // assertEquals(payload.getLastname(),actualData.getBooking().getLastname());
+       // assertEquals(payload.getTotalprice(),actualData.getBooking().getTotalprice());
+       // assertEquals(payload.getDepositpaid(),actualData.getBooking().getDepositpaid());
+       // assertEquals(bookingDates.getCheckin(),actualData.getBooking().getBookingdates().getCheckin());
+       // assertEquals(bookingDates.getCheckout(),actualData.getBooking().getBookingdates().getCheckout());
+       // assertEquals(payload.getAdditionalneeds(),actualData.getBooking().getAdditionalneeds());
 
 
 

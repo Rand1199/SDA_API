@@ -1,13 +1,11 @@
-package Day03;
+package day03;
 
 
 import base_url.JsonPlaceHolderBaseUrl;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
-import testdata.JsonPlaceHolderTestData;
 
 import java.util.Map;
-import java.util.Objects;
 
 import static io.restassured.RestAssured.given;
 import static org.testng.AssertJUnit.assertEquals;

@@ -6,16 +6,13 @@ import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.BeforeMethod;
 
-import static utilities.AuthenticationRestful.getToken;
-
-public class RestFullBaseUrl {
+public class DummyRestBaseUrl {
 
     protected RequestSpecification spec;
     @BeforeMethod
     public void setUp(){
         spec = new RequestSpecBuilder()
-                .setBaseUri("https://restful-booker.herokuapp.com")
-                .addHeader("Cookie","token="+getToken())
+                .setBaseUri("https://dummy.restapiexample.com/api/v1")
                 .setContentType(ContentType.JSON)
                 .build();
     }
